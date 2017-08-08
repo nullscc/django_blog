@@ -1,0 +1,9 @@
+[submodule "blog/zinnia-theme-bootstrap"]
+	path = blog/zinnia-theme-bootstrap
+	url = https://github.com/nullscc/zinnia-theme-bootstrap.git
+[submodule "blog/zinnia"]
+	path = blog/zinnia
+	url = https://github.com/nullscc/django-blog-zinnia.git
+[submodule "blog/django-comments-xtd"]
+	path = blog/django-comments-xtd
+	url = https://github.com/nullscc/django-comments-xtd.git
