@@ -134,7 +134,7 @@ STATIC_URL = '/static/'
 
 SITE_ID = 1
 ZINNIA_MARKUP_LANGUAGE = 'markdown'
-ZINNIA_MARKDOWN_EXTENSIONS = ['markdown.extensions.extra', 'markdown.extensions.codehilite']
+ZINNIA_MARKDOWN_EXTENSIONS = ['markdown.extensions.extra', 'markdown.extensions.codehilite', 'markdown.extensions.toc']
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com' # 如果不是163邮箱请替换为邮箱服务商的smtp服务器地址
