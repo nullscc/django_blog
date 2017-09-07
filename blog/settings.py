@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'tagging',
     'zinnia_bootstrap',
     'zinnia',
+    "maxim"
 ]
 
 MIDDLEWARE = [

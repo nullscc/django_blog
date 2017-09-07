@@ -10,8 +10,10 @@ DATABASES = {
         'PASSWORD':os.environ['DGDB_PASSWD'],
         'HOST':'127.0.0.1',
         'PORT':'3306',
-    }
-}  
+    },
+}
 USE_TZ = True 
 SECRET_KEY = os.environ['SECRET_KEY']
 
+from mongoengine import register_connection
+register_connection('maxim', name='crawler', host='127.0.0.1', port=27017)
