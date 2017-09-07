@@ -7,3 +7,6 @@
 [submodule "zinnia-theme-bootstrap"]
 	path = zinnia-theme-bootstrap
 	url = https://github.com/nullscc/zinnia-theme-bootstrap.git
+[submodule "maxim"]
+	path = maxim
+	url = https://github.com/nullscc/django_maxim.git
